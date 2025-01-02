@@ -1,0 +1,23 @@
+ *{
+  font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .cabecalho{ 
+  display: flex;
+  justify-content: space-between;  
+} 
+
+.imagem-cabecalho{
+  padding: 10px 20px;
+}
+
+.navbar{
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
