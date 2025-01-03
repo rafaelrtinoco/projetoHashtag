@@ -16,8 +16,149 @@
   gap: 25px;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-top: 10px;
+  margin-top: 30px;
   list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  color: #112e61;
+}
+
+.secao-hero{
+  display: flex;
+  margin: 50px 300px;
+  /* background-color: antiquewhite; */
+}
+
+.left-hero{
+  width: 500px;
+  margin: 0 40px
+}
+
+.direita-hero{
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.titulo-hero{
+  color: #404040;
+  font-size: 33.2px;
+  letter-spacing: 2.5px;
+}
+
+.texto-hero{
+  color: #404040;
+  font-size: 19.2px;
+  letter-spacing: 1.5px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes-hero{   
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #ff9253;
+  padding: 10px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.subtitulo-gratuitos{
+  color: #404040;
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.subtitulo-gratuitos span{
+  color: #7043bc;
+}
+
+.gratuitos-modalidades{ 
+  font-size: 23px;
+  font-weight: 700;
+  background-color: #7043bc;
+  border-radius: 40px;
+  color: white;
+  
+}
+
+.link-redes{
+  text-decoration: none;
+  font-size: 19.2px;
+  color: #404040;
+}
+
+.subtitulo-conheca{
+  color: #404040;
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.paragrafo-conheca{
+  font-size: 19.2px;
+}
+
+.imagem-conheca{
+  background-color: #feae00;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.temas-conheca{
+  color: #005e88;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.paragrafo-temas{ 
+  color: #404040;
+  font-size: 16px;
+}
+
+.empresas-conheca a {
+  color: #005e88;
+  font-weight: 700;
   text-decoration: none;
 }
 
+.empresas-conheca{ 
+  font-weight: 400;
+  font-size: 23px;
+  color: #404040;
+}
+
+.imagem-depoimentos{
+  background-color: #005e88;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.depoimentos{ 
+  font-size: 27.6px;
+  font-weight: 400;
+}
+
+.link-depoimentos{
+  font-size: 24px;
+  text-decoration: none;
+  color: #404040;
+}
+
+.na-midia{
+  color: #404040;
+  font-size: 24.6px;
+}
