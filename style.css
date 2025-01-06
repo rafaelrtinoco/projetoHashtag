@@ -1,5 +1,6 @@
  *{
   font-family: 'Montserrat', sans-serif;
+  color: #404040;
  }
  
  .cabecalho{ 
@@ -27,8 +28,8 @@ li{
   list-style: none;
 }
 
-li a{
-  text-decoration: none;
+.navbar li a{
+  text-decoration: none; 
   color: #112e61;
 }
 
@@ -50,13 +51,11 @@ li a{
 }
 
 .titulo-hero{
-  color: #404040;
   font-size: 33.2px;
   letter-spacing: 2.5px;
 }
 
 .texto-hero{
-  color: #404040;
   font-size: 19.2px;
   letter-spacing: 1.5px;
 }
@@ -78,7 +77,6 @@ li a{
 }
 
 .subtitulo-gratuitos{
-  color: #404040;
   font-size: 27.6px;
   font-weight: 400;
 }
@@ -99,11 +97,9 @@ li a{
 .link-redes{
   text-decoration: none;
   font-size: 19.2px;
-  color: #404040;
-}
+  }
 
 .subtitulo-conheca{
-  color: #404040;
   font-size: 27.6px;
   font-weight: 400;
 }
@@ -125,7 +121,6 @@ li a{
 }
 
 .paragrafo-temas{ 
-  color: #404040;
   font-size: 16px;
 }
 
@@ -138,8 +133,7 @@ li a{
 .empresas-conheca{ 
   font-weight: 400;
   font-size: 23px;
-  color: #404040;
-}
+  }
 
 .imagem-depoimentos{
   background-color: #005e88;
@@ -155,10 +149,86 @@ li a{
 .link-depoimentos{
   font-size: 24px;
   text-decoration: none;
-  color: #404040;
-}
+  }
 
 .na-midia{
-  color: #404040;
   font-size: 24.6px;
+}
+
+.subtitulo-blog{
+  font-size: 27.6px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.1;
+  background-color: #feae00;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+}
+
+.paragrafo-img{
+  font-size: 15px;
+  }
+
+.paragrafo-img a{
+  text-decoration: none;
+  color: #feae00;
+}
+
+.link-item-blog{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.descricao-item-blog{
+  font-size: 16px;
+  
+}
+
+.subtitulo-como{
+  font-size: 27.6px;
+  color: white;
+  background-color: #15a1d5;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+}
+
+.item-como{
+  font-size: 19.2px;  
+}
+
+.item-como a {
+  color: #008FF7;
+}
+
+.subtitulo-minicurso{
+  font-size: 27.6px;
+}
+
+.style-label{
+  font-size: 16px;
+}
+
+.fale-conosco{
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.cursos{
+  font-size: 19.2px;
+  font-weight: 600;
+}
+
+.rodape-nome{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.link-rodape{
+  color:#1A77A4;
 }
