@@ -1,25 +1,43 @@
  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+ }
+
+ html{
+  font-size: 62.5%;
+ }
+
+ body{
   font-family: 'Montserrat', sans-serif;
   color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
  }
  
  .cabecalho{ 
   display: flex;
   justify-content: space-between;  
+  padding: 1.28rem 2.5rem;
+  box-shadow: 0 0.33rem 0.6rem rgba(0,0,0, 0.15);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
 } 
 
 .imagem-cabecalho{
-  padding: 10px 20px;
+  padding: 1rem 2rem;
 }
 
 .navbar{
   display: flex;
-  gap: 25px;
+  gap: 2.5rem;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-top: 30px;
+  margin-top: 3.0rem;
   list-style: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -33,31 +51,40 @@ li{
   color: #112e61;
 }
 
+.navbar li a:hover,
+.navbar li a:active{
+  color: #f60;
+}
+
+.navbar li.contem-filhos::after{
+  content: "\2bc6";
+}
+
+
 .secao-hero{
   display: flex;
-  margin: 50px 300px;
+  margin: 5.0rem 30rem;
   /* background-color: antiquewhite; */
 }
 
 .left-hero{
-  width: 500px;
-  margin: 0 40px
+  width: 50rem;
+  margin: 0 4.0rem
 }
 
 .direita-hero{
   display: flex;
   align-items: center;
-  margin: 0 40px;
+  margin: 0 4rem;
 }
 
 .titulo-hero{
-  font-size: 33.2px;
-  letter-spacing: 2.5px;
+  font-size: 3.3rem;
 }
 
 .texto-hero{
-  font-size: 19.2px;
-  letter-spacing: 1.5px;
+  font-size: 1.9rem;
+  
 }
 
 .botoes{
@@ -66,18 +93,18 @@ li{
 }
 
 .botoes-hero{   
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
   text-decoration: none;
   color: white;
   background-color: #ff9253;
-  padding: 10px;
-  border-radius: 40px;
+  padding: 1.0rem;
+  border-radius: 4.0rem;
   text-align: center;
 }
 
 .subtitulo-gratuitos{
-  font-size: 27.6px;
+  font-size: 2.7rem;
   font-weight: 400;
 }
 
@@ -86,42 +113,42 @@ li{
 }
 
 .gratuitos-modalidades{ 
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
   background-color: #7043bc;
-  border-radius: 40px;
+  border-radius: 4.0rem;
   color: white;
   
 }
 
 .link-redes{
   text-decoration: none;
-  font-size: 19.2px;
+  font-size: 1.9rem;
   }
 
 .subtitulo-conheca{
-  font-size: 27.6px;
+  font-size: 2.7rem;
   font-weight: 400;
 }
 
 .paragrafo-conheca{
-  font-size: 19.2px;
+  font-size: 1.9rem;
 }
 
 .imagem-conheca{
   background-color: #feae00;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 1.0rem;
+  padding: 1.0rem;
 }
 
 .temas-conheca{
   color: #005e88;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 2.3rem;
 }
 
 .paragrafo-temas{ 
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .empresas-conheca a {
@@ -132,43 +159,43 @@ li{
 
 .empresas-conheca{ 
   font-weight: 400;
-  font-size: 23px;
+  font-size: 2.3rem;
   }
 
 .imagem-depoimentos{
   background-color: #005e88;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1.0rem;
+  border-radius: 1.0rem;
 }
 
 .depoimentos{ 
-  font-size: 27.6px;
+  font-size: 2.7rem;
   font-weight: 400;
 }
 
 .link-depoimentos{
-  font-size: 24px;
+  font-size: 2.4rem;
   text-decoration: none;
   }
 
 .na-midia{
-  font-size: 24.6px;
+  font-size: 2.4rem;
 }
 
 .subtitulo-blog{
-  font-size: 27.6px;
+  font-size: 2.7rem;
   color: white;
   font-weight: 400;
   line-height: 1.1;
   background-color: #feae00;
-  padding: 10px;
-  border-radius: 10px;
-  width: 600px;
+  padding: 1.0rem;
+  border-radius: 1.0rem;
+  width: 60rem;
   text-align: center;
 }
 
 .paragrafo-img{
-  font-size: 15px;
+  font-size: 1.5rem;
   }
 
 .paragrafo-img a{
@@ -178,28 +205,28 @@ li{
 
 .link-item-blog{
   text-decoration: none;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
 .descricao-item-blog{
-  font-size: 16px;
+  font-size: 1.6rem;
   
 }
 
 .subtitulo-como{
-  font-size: 27.6px;
+  font-size: 2.7rem;
   color: white;
   background-color: #15a1d5;
   font-weight: 400;
-  padding: 10px;
-  border-radius: 10px;
-  width: 600px;
+  padding: 1.0rem;
+  border-radius: 1.0rem;
+  width: 60rem;
   text-align: center;
 }
 
 .item-como{
-  font-size: 19.2px;  
+  font-size: 1.9rem;  
 }
 
 .item-como a {
@@ -208,25 +235,25 @@ li{
 }
 
 .subtitulo-minicurso{
-  font-size: 27.6px;
+  font-size: 2.7rem;
 }
 
 .style-label{
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .titulos-rodape{
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 600;
 }
 
 .cursos{
-  font-size: 19.2px;
+  font-size: 1.9rem;
   font-weight: 600;
 }
 
 .rodape-nome{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
