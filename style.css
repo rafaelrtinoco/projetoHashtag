@@ -202,6 +202,7 @@ li {
   width: 1.8rem;
 }
 
+/* secao diferenciais */
 .secao-diferenciais {
   background-color: #f4f5f6;
 }
@@ -273,6 +274,23 @@ li {
 
 .paragrafo-temas {
   font-size: 1.6rem;
+}
+
+/* secao o que falam */
+
+.secao-oquefalam{
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oquefalam-titulo{
+  color: white;
+}
+
+.oquefalam-carrossel{
+  color: red;
 }
 
 .empresas-conheca a {
