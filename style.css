@@ -1,74 +1,75 @@
- *{
+* {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;  
- }
+  box-sizing: border-box;
+}
 
- html{
+html {
   font-size: 62.5%;
- }
+}
 
- body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   color: #404040;
   font-size: 1.6rem;
   line-height: 1.4;
- }
+}
 
- h1{
+h1 {
   font-size: 3.32rem;
   line-height: 1;
   font-weight: 600;
- }
+}
 
- h2{
+h2 {
   font-size: 2.76rem;
   line-height: 1.1;
   font-weight: 400;
- }
- 
- .cabecalho{ 
+}
+
+.cabecalho {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  z-index: 9999;
   padding: 1.28rem 2.5rem;
-  box-shadow: 0 0.33rem 0.6rem rgba(0,0,0, 0.15);
+  box-shadow: 0 0.33rem 0.6rem rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
   left: 0;
   background-color: white;
-} 
+}
 
-.imagem-cabecalho{
+.imagem-cabecalho {
   padding: 1rem 2rem;
 }
 
-.navbar{
+.navbar {
   display: flex;
   gap: 2.5rem;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-top: 3.0rem;
+  margin-top: 3rem;
   list-style: none;
   font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.navbar li a{
-  text-decoration: none; 
+.navbar li a {
+  text-decoration: none;
   color: #112e61;
 }
 
 .navbar li a:hover,
-.navbar li a:active{
+.navbar li a:active {
   color: #f60;
 }
 
-.navbar li.contem-filhos::after{
+.navbar li.contem-filhos::after {
   content: "\2bc6";
 }
 
@@ -76,157 +77,201 @@ li{
   padding: 7.63rem 2rem;
 }
 
-.container{
+.container {
   max-width: 100rem;
   margin: 0 auto;
 }
 
-
-.secao-hero{
+.secao-hero {
   background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-01.webp);
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 
-
-.texto-hero{
+.texto-hero {
   font-size: 1.9rem;
-  line-height: 1.3;  
+  line-height: 1.3;
 }
 
-.botao{
+.botao {
   display: inline-block;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 3rem;
   padding: 0.65rem 2.5rem;
-  
 }
 
-.botao-hero{
-  background-image: linear-gradient(180deg, #ff645e, #ff9253);  
+.botao-hero {
+  background-image: linear-gradient(180deg, #ff645e, #ff9253);
   color: white;
-  border-bottom: solid 0.4rem #993c38 ;
-  border-right: solid 0.4rem #993c38 ;
+  border-bottom: solid 0.4rem #993c38;
+  border-right: solid 0.4rem #993c38;
 }
 
-.botao-hero:hover{
+.botao-hero:hover {
   background-color: #ff9253;
   background-image: none;
-  border-bottom: solid 0.4rem #ff9253 ;
-  border-right: solid 0.4rem #ff9253 ;
+  border-bottom: solid 0.4rem #ff9253;
+  border-right: solid 0.4rem #ff9253;
   box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
 }
 
-.iframe-video{
+.iframe-video {
   aspect-ratio: 16/9;
   border-radius: 2.5rem;
 }
 
 /* Secão conteudos */
 
-.secao-conteudos{
+.secao-conteudos {
   background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp);
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 
-.img-conteudos{
-  width: 44rem ;
+.img-conteudos {
+  width: 44rem;
 }
-.caixa-cursos-hashtag{
+.caixa-cursos-hashtag {
   position: relative;
-  box-shadow: inset 0 0  0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   padding: 2.5rem;
 }
-.caixa-gratuito-h3{
+.caixa-gratuito-h3 {
   position: absolute;
   top: 0;
-  left:50%;
+  left: 50%;
   display: inline-block;
   padding: 0.42rem 1.6rem;
   background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
   color: white;
   border-radius: 1rem;
-  transform: rotate(-3deg) translateX(-50%, -50%);
+  transform: rotate(-3deg) translate(-50%, -50%);
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
-.circulo-logo-cursos{
+.circulo-logo-cursos {
   display: inline-block;
   background-color: #e7e7e7;
   border-radius: 50%;
-  box-shadow: inset 0 0  0.8rem 0.2rem rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.15);
   padding: 1.02rem;
   width: 4.5rem;
   height: 4.5rem;
-
 }
 
-.circulo-logo-cursos img{  
+.circulo-logo-cursos img {
   width: 100%;
 }
 
-.subtitulo-gratuitos span{
+.subtitulo-gratuitos span {
   color: #7043bc;
 }
 
-.gratuitos-modalidades{ 
+.gratuitos-modalidades {
   font-size: 2.3rem;
   font-weight: 700;
   background-color: #7043bc;
-  border-radius: 4.0rem;
-  color: white;  
+  border-radius: 4rem;
+  color: white;
 }
 
 .gratuito-link-redes:link,
-.gratuito-link-redes:visited{
+.gratuito-link-redes:visited {
   display: inline-block;
   padding: 0.42rem 3.12rem;
   background-color: #eee;
   border-radius: 1rem;
-  box-shadow: inset 0 0  0.8rem 0.2rem rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
   text-decoration: none;
   font-size: 1.92rem;
   color: inherit;
-  }
+}
 
-  .gratuito-link-redes:hover, 
-  .gratuito-link-redes:active{
-    text-decoration: underline;
-  }
+.gratuito-link-redes:hover,
+.gratuito-link-redes:active {
+  text-decoration: underline;
+}
 
-  .gratuito-link-redes img{
-    width: 1.8rem;
-  }
+.gratuito-link-redes img {
+  width: 1.8rem;
+}
 
-.subtitulo-conheca{
+.secao-diferenciais {
+  background-color: #f4f5f6;
+}
+
+.container-diferenciais {
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.caixa-titulo-diferenciais {
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  padding: 4.88rem;
+  background-image: linear-gradient(225deg, #196b9f, #1a82a7);
+  color: white;
+}
+
+.caixa-restante-diferenciais{
+  padding: 4.88rem;
+}
+
+.caixa-itens-diferenciais{  
+  position: relative;
+  border-radius: 2.5rem;
+  background-color: white;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 3.9rem 2.5rem;
+}
+.conheca-diferenciais {
   font-size: 2.7rem;
   font-weight: 400;
 }
 
-.paragrafo-conheca{
-  font-size: 1.9rem;
+.caixa-diferenciais-h2 {
+  border-left: solid 0.4rem #feae00;
+  padding: 0.52rem 0 0.52rem 2rem;
 }
 
-.imagem-conheca{
+.imagem-conheca {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
   background-color: #feae00;
-  border-radius: 1.0rem;
-  padding: 1.0rem;
+  border-radius: 1.25rem;
+  width: 10rem;
+  height: 10rem;
+  padding:1.6rem;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  }
+
+  .imagem-conheca img{
+    width: 100%;
+  }
+
+.paragrafo-conheca {
+  font-size: 1.9rem;
+  line-height: 1.3;
 }
 
-.temas-conheca{
+
+.temas-conheca {
   color: #005e88;
   font-weight: 600;
   font-size: 2.3rem;
 }
 
-.paragrafo-temas{ 
+.paragrafo-temas {
   font-size: 1.6rem;
 }
 
@@ -236,106 +281,110 @@ li{
   text-decoration: none;
 }
 
-.empresas-conheca{ 
+.empresas-conheca {
   font-weight: 400;
-  font-size: 2.3rem;
-  }
-
-.imagem-depoimentos{
-  background-color: #005e88;
-  padding: 1.0rem;
-  border-radius: 1.0rem;
+  font-size: 3rem;
+  line-height: 1.3;
+}
+.diferemciais-empresas img{
+  height: 5rem;
+  filter:grayscale(100%)
 }
 
-.depoimentos{ 
+.imagem-depoimentos {
+  background-color: #005e88;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.depoimentos {
   font-size: 2.7rem;
   font-weight: 400;
 }
 
-.link-depoimentos{
+.link-depoimentos {
   font-size: 2.4rem;
   text-decoration: none;
-  }
+}
 
-.na-midia{
+.na-midia {
   font-size: 2.4rem;
 }
 
-.subtitulo-blog{
+.subtitulo-blog {
   font-size: 2.7rem;
   color: white;
   font-weight: 400;
   line-height: 1.1;
   background-color: #feae00;
-  padding: 1.0rem;
-  border-radius: 1.0rem;
+  padding: 1rem;
+  border-radius: 1rem;
   width: 60rem;
   text-align: center;
 }
 
-.paragrafo-img{
+.paragrafo-img {
   font-size: 1.5rem;
-  }
+}
 
-.paragrafo-img a{
+.paragrafo-img a {
   text-decoration: none;
   color: #feae00;
 }
 
-.link-item-blog{
+.link-item-blog {
   text-decoration: none;
   font-size: 2.4rem;
   font-weight: 600;
 }
 
-.descricao-item-blog{
+.descricao-item-blog {
   font-size: 1.6rem;
-  
 }
 
-.subtitulo-como{
+.subtitulo-como {
   font-size: 2.7rem;
   color: white;
   background-color: #15a1d5;
   font-weight: 400;
-  padding: 1.0rem;
-  border-radius: 1.0rem;
+  padding: 1rem;
+  border-radius: 1rem;
   width: 60rem;
   text-align: center;
 }
 
-.item-como{
-  font-size: 1.9rem;  
+.item-como {
+  font-size: 1.9rem;
 }
 
 .item-como a {
-  color: #008FF7;
+  color: #008ff7;
   font-weight: 600;
 }
 
-.subtitulo-minicurso{
+.subtitulo-minicurso {
   font-size: 2.7rem;
 }
 
-.style-label{
+.style-label {
   font-size: 1.6rem;
 }
 
-.titulos-rodape{
+.titulos-rodape {
   font-size: 2.3rem;
   font-weight: 600;
 }
 
-.cursos{
+.cursos {
   font-size: 1.9rem;
   font-weight: 600;
 }
 
-.rodape-nome{
+.rodape-nome {
   font-size: 1.6rem;
   font-weight: 600;
 }
 
-.link-rodape{
-  color:#1A77A4;
+.link-rodape {
+  color: #1a77a4;
 }
